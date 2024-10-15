@@ -65,7 +65,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ productItems, productsLoading
                         width={500}
                         height={500}
                         className="h-20 md:h-80 w-full object-contain rounded-t-xl absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-500"
-                        alt="image"
+                        alt={product.posterImageUrl.altText || ""}
+
                       />
                     )}
                   </div>
