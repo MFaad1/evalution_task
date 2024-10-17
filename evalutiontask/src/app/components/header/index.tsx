@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { FaShoppingCart, FaHeart, FaUser } from 'react-icons/fa'
+import { FaShoppingCart } from 'react-icons/fa'
 
 interface HeaderProps {
   className?: string; 
@@ -31,10 +31,9 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
     };
   }, []); 
   return (
-    <header className={`${className} bg-gray-800 text-white p-4`}>
-      <div className="flex justify-between">
-        <div className="text-lg font-bold">E-Commerce</div>
-        <div className="space-x-4 flex items-center">
+    <div className={`${className} max-w-full bg-gray-800 flex justify-center md:justify-between items-center text-white p-4`}>
+        <div className='hidden md:block text-xs md:text-lg'>E-Commerce</div>
+        <div className="space-x-4 flex items-center text-xs md:text-lg">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/profile">Profile</Link>
@@ -50,7 +49,6 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
           </Link>
         </div>
       </div>
-    </header>
   );
 };
 export default Header;
