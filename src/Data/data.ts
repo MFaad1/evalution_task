@@ -68,6 +68,8 @@ export const generateSlug = (text: string) => {
 
 
 
+
+
 export const SEO_products = [
   {
     name: "iceberg-small-suction-cup",
