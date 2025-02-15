@@ -6,10 +6,6 @@ const About = () => {
     
     About Us
 
-
-
-
-
     </div>
 
 
