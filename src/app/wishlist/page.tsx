@@ -7,7 +7,11 @@ const Wishlist = () => {
 
   )
 
+
+
 }
+
+
 
 
 
