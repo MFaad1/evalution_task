@@ -6,10 +6,9 @@ const Wishlist = () => {
 
 
   )
-
-
-
 }
+
+
 
 
 
