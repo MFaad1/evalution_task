@@ -4,15 +4,14 @@ import Image from 'next/image';
 import { ProductData } from '@/app/data';
 // import Link from 'next/link';
 
-
 const add_to_cart_handler =(product:{imageurl?: any;title:string;price:string;})=>{
 let arrr:any =[]  
+
 
 const storedcartitems:any =localStorage.getItem('cart');
 
 
 localStorage.setItem('cart',JSON.stringify(arrr))
-
 
 }
 
