@@ -2,15 +2,8 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaRegHeart } from "react-icons/fa6";
-
-
-
-
 const Header = () => {
   return (
-
-
-   
     <div className='max-w-full grid md:grid-cols-3 justify-center items-center px-3 bg-green-300'>
         <div className='flex justify-start items-center'>
         <Image className='h-[109px] w-[154px]' src="/images/B&C.png" alt="img" height={800} width={800}></Image></div>
