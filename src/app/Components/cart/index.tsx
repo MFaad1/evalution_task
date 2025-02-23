@@ -7,13 +7,9 @@ import { ProductData } from '@/app/data';
 const add_to_cart_handler =(product:{imageurl?: any;title:string;price:string;})=>{
 let arrr:any =[]  
 
-
 const storedcartitems:any =localStorage.getItem('cart');
 
-
-localStorage.setItem('cart',JSON.stringify(arrr))
-
-}
+localStorage.setItem('cart',JSON.stringify(arrr))}
 
 const Cart = () => {
   return (
@@ -27,9 +23,7 @@ const Cart = () => {
         <p className='font-normal font-sans text-base'>{arr.price}</p>
         
         <button className='bg-slate-400 px-2 py-2 flex items-center rounded-md font-sans font-medium' onClick={()=>add_to_cart_handler(arr)}>Add to Cart</button>
-        
-      
-      </div>
+         </div>
     ))}
   </div>
   </div>
