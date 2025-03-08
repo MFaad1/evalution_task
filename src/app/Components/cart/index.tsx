@@ -25,6 +25,8 @@ const Cart = () => {
         <button className='bg-slate-400 px-2 py-2 flex items-center rounded-md font-sans font-medium' onClick={()=>add_to_cart_handler(arr)}>Add to Cart</button>
          </div>
     ))}
+
+    
   </div>
   </div>
   );
