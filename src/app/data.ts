@@ -10,11 +10,17 @@ export const ProductData = [
       price: "Aed 35",
     },
     
+
+
+    
     {
       imageurl: "/images/Rectangle.png",
       title: "Product3",
       price: "Aed 40",
     },
+
+
+
 
 
     {
